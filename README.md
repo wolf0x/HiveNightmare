@@ -36,5 +36,6 @@ Saves the files in C:\temp.
 **Pulling Credentials out**
 
 python3 secretsdump.py -sam SAM -system SYSTEM -security SECURITY LOCAL
-![image](https://user-images.githubusercontent.com/15625431/126903381-c8df7730-69f8-42d0-94c0-a87a7933af19.png)
+![image](https://user-images.githubusercontent.com/15625431/126903531-b5f1d6d9-b585-4e28-b115-2aec3ae98795.png)
+
 
