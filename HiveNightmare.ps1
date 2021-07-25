@@ -33,11 +33,7 @@ Code by wolf0x
     [CmdletBinding()] Param(
         [Parameter(Position = 0, Mandatory = $False)]
         [String]
-        $Dest,
-
-        [Parameter(Position = 1, Mandatory = $False)]
-        [String]
-        $ntdsSource
+        $Dest
     )
     $service = (Get-Service -name VSS)
     if($service.Status -ne "Running")
