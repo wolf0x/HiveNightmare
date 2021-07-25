@@ -6,6 +6,10 @@ CVE-2021–36934， Exploit allowing you to read any registry hives as non-admin
 
 An zero day exploit for HiveNightmare, which allows you to retrieve all registry hives in Windows 10 as a non-administrator user. For example, this includes hashes in SAM, which can be used to execute code as SYSTEM.
 
+**Why this?**
+
+GossiTheDog's HiveNightmare.exe was detected and blocked by AV directly....:) so make this PS script for IEX fileless execution.
+
 **Scope**
 
 Works on all supported versions of Windows 10, where System Protection is enabled (should be enabled by default in most configurations).
